@@ -4,6 +4,9 @@ main = "src/index.ts"
 compatibility_date = "2024-09-09"
 compatibility_flags = ["nodejs_compat"]
 
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiZjJmZWExMjQtN2M1MS00NzlkLWIwYzEtYTM2MzYyYzg3NmQ2IiwidGVuYW50X2lkIjoiYWU1Y2I0NDhkOTExZGQ5NjZiNzZmZDY4NDFjN2RjODZjM2UwYTU4NDYwMTQ2MGQxYTJmMTM1ZGI2MThhYjcxMCIsImludGVybmFsX3NlY3JldCI6IjFiNTM3NThkLTQxMzItNDZmNC1hZWI2LTAzYzg4ZTVhNDY3ZiJ9.VRYNPo7H1OkgKquUq9jexcyuofYd15vLZVf5vhq6x_4"
+
 # Automatically place your workloads in an optimal location to minimize latency.
 # If you are running back-end logic in a Worker, running it closer to your back-end infrastructure
 # rather than the end user may result in better performance.
@@ -18,6 +21,8 @@ compatibility_flags = ["nodejs_compat"]
 # - https://developers.cloudflare.com/workers/configuration/secrets/
 # [vars]
 # MY_VARIABLE = "production_value"
+
+
 
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#workers-ai
